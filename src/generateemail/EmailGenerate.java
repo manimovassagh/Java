@@ -25,7 +25,7 @@ public class EmailGenerate {
 
 	/**
 	 * *@author Mani define my own Methods here
-	 * 
+	 * print all of randome genrated emails
 	 * @return retuen a constructed email
 	 */
 
