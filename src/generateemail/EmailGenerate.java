@@ -36,8 +36,7 @@ public class EmailGenerate {
 				for (int p = 0; p < emailProvider.length; p++) {
 					// System.out.println(this.firstName[i]+this.lastName[m]);
 					for (int s = 0; s < emailSuffixe.length; s++) {
-						System.out.println(
-								firstName[i] + "." + lastName[m] + "@" + emailProvider[p] + "." + emailSuffixe[s]);
+						System.out.println(firstName[i] + "." + lastName[m] + "@" + emailProvider[p] + "." + emailSuffixe[s]);
 
 					}
 				}
@@ -85,8 +84,8 @@ public class EmailGenerate {
 					// System.out.println(this.firstName[i]+this.lastName[m]);
 					for (int s = 0; s < emailSuffixe.length; s++) {
 						if (myRandomeEmailStore.size() < 30) {
-							myRandomeEmailStore.add(
-									firstName[i] + "." + lastName[m] + "@" + emailProvider[p] + "." + emailSuffixe[s]);
+							myRandomeEmailStore
+									.add(firstName[i] + "." + lastName[m] + "@" + emailProvider[p] + "." + emailSuffixe[s]);
 						}
 
 					}
@@ -147,5 +146,5 @@ public class EmailGenerate {
 	public void setMyRandomeEmailStore(ArrayList<String> myRandomeEmailStore) {
 		this.myRandomeEmailStore = myRandomeEmailStore;
 	}
-
+	// done and commit
 }
